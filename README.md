@@ -1,14 +1,14 @@
-## Laptop Price Prediction
+#  Laptop Price Prediction
 
 Projet de Data Science visant à prédire le prix de vente de laptops à partir de leurs caractéristiques techniques.
 
-  Contenu
+##  Contenu
 
 - `NOTRE_PRODUCTION_Projet_1_mentorat_FORCE_N.ipynb` : notebook complet du projet.
 - `requirements.txt` : dépendances à installer.
 - `README.md` : ce fichier.
 
-  Objectif
+##  Objectif
 
 Utiliser un jeu de données de configurations de laptops pour :
 
@@ -17,7 +17,7 @@ Utiliser un jeu de données de configurations de laptops pour :
 - Extraire des caractéristiques pertinentes
 - Construire un modèle de prédiction de prix
 
- Technologies utilisées
+##  Technologies utilisées
 
 - Python 3
 - Pandas
@@ -27,24 +27,24 @@ Utiliser un jeu de données de configurations de laptops pour :
 - Scikit-learn
 - gdown
 
-  Modèle
+##  Modèle
 
 Modèle utilisé : `LinearRegression` (scikit-learn)  
 Évaluation : MAE, RMSE, R²
 
-  Exécution
+##  Exécution
 
 1. Clone le repo :
    ```bash
    git clone <url-du-repo>
    cd <nom-du-dossier>
 2. Crée un environnement :
-   '''bash
+   ```bash
    python -m venv venv
    source venv/bin/activate  # ou venv\Scripts\activate sous Windows  
 3. Installe les dépendances :
-   '''bash
+   ```bash
    pip install -r requirements.txt
 4. Lance le notebook :
-   '''bash
+   ```bash
    jupyter notebook
