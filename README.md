@@ -38,3 +38,13 @@ Modèle utilisé : `LinearRegression` (scikit-learn)
    ```bash
    git clone <url-du-repo>
    cd <nom-du-dossier>
+2. Crée un environnement :
+   '''bash
+   python -m venv venv
+   source venv/bin/activate  # ou venv\Scripts\activate sous Windows  
+3. Installe les dépendances :
+   '''bash
+   pip install -r requirements.txt
+4. Lance le notebook :
+   '''bash
+   jupyter notebook
